@@ -4,7 +4,6 @@
 }
 
 body {
-<<<<<<< HEAD
     background-image: url('https://infoscreen.sae.ch/img/bg.png');
 }
 
@@ -67,30 +66,3 @@ body {
     object-fit: contain;
     background: #000;
 }
-=======
-    margin: 0;
-    background-image: url('http://infoscreen.sae.ch/img/bg.png');
-}
-
-
-/* START ANIMATION TEST PAGE */
-
-body.animation-test {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-body.animation-test svg {
-    width: 200px;
-    height: auto;
-    color: white;
-}
-
-body.animation-test svg path {
-    stroke: currentColor;
-}
-
-/* END ANIMATION TEST PAGE */
->>>>>>> 7ef58c8553908ca902167e777846aa0721016efa
