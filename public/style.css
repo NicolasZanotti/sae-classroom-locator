@@ -66,3 +66,25 @@ body {
     object-fit: contain;
     background: #000;
 }
+
+
+/* START ANIMATION TEST PAGE */
+
+body.animation-test {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body.animation-test svg {
+  width: 200px;
+  height: auto;
+  color: white;
+}
+
+body.animation-test svg path {
+  stroke: currentColor;
+}
+
+/* END ANIMATION TEST PAGE */
