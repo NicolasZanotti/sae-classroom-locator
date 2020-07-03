@@ -1,6 +1,7 @@
 * {
     font-family: sans-serif;
     color: #ffffff;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,24 +9,67 @@ body {
     background-image: url('http://infoscreen.sae.ch/img/bg.png');
 }
 
+
+header,
+body {
+    max-width: 1440px;
+    position: relative;
+    padding: 0 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: initial;
+    margin-top: 20px;
+}
+
+.divider {
+    border-bottom: 1px solid;
+    margin: 24px 0 40px 0;
+}
+
+.datetime {
+    align-self: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .logo {
     max-height: 100px;
     height: 100%;
 }
 
+.tiles-container {
+    margin-bottom: 36px;
+    display: flex;
+}
+
 .tile {
     max-width: calc(96% / 3);
-    padding: 16px;
+    width: 100%;
+    padding: 16px 16px 24px 16px;
+    margin-right: 2%;
+}
+
+.tile:last-child {
+    margin-right: initial;
 }
 
 .tile-yellow {
     background-color: #fefe7f;
 }
 
-.tile-yellow .class-title,
-.tile-yellow .time,
-.tile-yellow .room,
-.tile-yellow .description {
+.tile .class-title,
+.tile .time,
+.tile .room,
+.tile .description {
     color: #000;
 }
 
