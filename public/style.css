@@ -1,3 +1,68 @@
+* {
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
 body {
     background-image: url('https://infoscreen.sae.ch/img/bg.png');
+}
+
+.logo {
+    max-height: 100px;
+    height: 100%;
+}
+
+.tile {
+    max-width: calc(96% / 3);
+    padding: 16px;
+}
+
+.tile-yellow {
+    background-color: #fefe7f;
+}
+
+.tile-yellow .class-title,
+.tile-yellow .time,
+.tile-yellow .room,
+.tile-yellow .description {
+    color: #000;
+}
+
+.tile-red {
+    background-color: #ec7f8b;
+}
+
+.tile-blue {
+    background-color: #80d3f7;
+}
+
+.tile-upper-part {
+    display: flex;
+    align-items: center;
+}
+
+.tile-middle-part {
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+
+.logo-container {
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin-right: 8px;
+}
+
+.logo-container img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background: #000;
 }
