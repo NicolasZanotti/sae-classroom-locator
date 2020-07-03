@@ -4,7 +4,8 @@
 }
 
 body {
-    background-image: url('https://infoscreen.sae.ch/img/bg.png');
+    margin: 0;
+    background-image: url('http://infoscreen.sae.ch/img/bg.png');
 }
 
 .logo {
