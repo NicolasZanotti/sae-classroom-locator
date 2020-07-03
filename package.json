@@ -1,0 +1,20 @@
+{
+  "name": "sae-classroom-locator",
+  "version": "1.0.0",
+  "description": "Locates rooms at SAE Zurich",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasZanotti/sae-classroom-locator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasZanotti/sae-classroom-locator/issues"
+  },
+  "homepage": "https://github.com/NicolasZanotti/sae-classroom-locator#readme"
+}
