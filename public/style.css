@@ -5,7 +5,8 @@
 }
 
 body {
-    background-image: url('https://infoscreen.sae.ch/img/bg.png');
+    margin: 0;
+    background-image: url('http://infoscreen.sae.ch/img/bg.png');
 }
 
 
@@ -109,9 +110,6 @@ header {
     width: 100%;
     object-fit: contain;
     background: #000;
-<<<<<<< HEAD
-}
-=======
 }
 
 
@@ -135,4 +133,3 @@ body.animation-test svg path {
 }
 
 /* END ANIMATION TEST PAGE */
->>>>>>> 9660341946e83deffe528bab3080faffa578f2c9
